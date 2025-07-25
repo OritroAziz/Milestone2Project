@@ -395,7 +395,7 @@ nav a{
 /* Subscribe section or news letter section here here */
 
 .sub {
-  background-image: url('assets/news-letter-bg.png');
+  background-image: url('/assets/news-letter-bg.png');
   background-size:cover;
   background-position: center;
   height: 533px;
@@ -532,7 +532,8 @@ footer {
 
 /* end */
 
-/* mobile responsiveness */
+
+
 @media (max-width: 768px) {
 
 
@@ -814,5 +815,3 @@ footer {
 }
 
 }
-
-/* end */
