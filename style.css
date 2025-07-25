@@ -395,7 +395,7 @@ nav a{
 /* Subscribe section or news letter section here here */
 
 .sub {
-  background-image: url('/assets/news-letter-bg.png');
+  background-image: url('assets/news-letter-bg.png');
   background-size:cover;
   background-position: center;
   height: 533px;
@@ -730,18 +730,18 @@ txt h3 {
 }
 
 .sub input[type="email"] {
-  height: 70px;
+  height: 40px;
   flex: 1;
   padding: 0 10px;
-  font-size: 18px;
+  font-size: 15px;
   border: none;
   outline: none;
   font-family: "Inter", sans-serif;
 }
 
 .sub button {
-  height: 70px;
-  padding: 0 60px;
+  height: 40px;
+  padding: 0 15px;
   background-color: #E95A08;
   color: white;
   border: none;
