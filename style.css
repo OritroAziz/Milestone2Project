@@ -615,7 +615,7 @@ txt h3 {
 }
 
 .section4 h3{
-  font-size: 50px;
+  font-size: 35px;
   font-weight: bold;
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -631,7 +631,7 @@ txt h3 {
   font-optical-sizing: auto;
   opacity: 50%;
   font-style: normal;
-  font-size: 22px;
+  font-size: 14px;
   line-height: auto;
   text-align: center;
   margin-top: 10px;
