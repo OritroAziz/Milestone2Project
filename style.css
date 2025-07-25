@@ -531,3 +531,9 @@ footer {
 }
 
 /* end */
+
+/* mobile responsiveness */
+@media (min-width: 768px) {
+ .d1 , li{display:none
+}
+/* end */
