@@ -533,7 +533,286 @@ footer {
 /* end */
 
 /* mobile responsiveness */
-@media (min-width: 768px) {
- .d1 , li{display:none
+@media (max-width: 768px) {
+
+
+ .d1 ,.l1 {display:none}
+
+.hero-section{
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+  width: auto;
+  gap: 0px;
+}
+
+.hero-section h3{
+  font-size: 50px;
+}
+
+
+.sptxt{
+  align-items: center;
+  justify-items: center;
+  margin: 0 0;
+}
+
+.csection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.badge{
+    display: none;
+}
+
+.section3 {
+  margin-top: 200px;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: normal;
+  gap: 10px;
+  flex-direction: column;
+  max-width: none;
+  margin: 0 auto;
+}
+
+.image1 {
+  position: relative;
+  width: 100%;
+}
+
+.image1 .main-img {
+  width: 100%;
+}
+
+.main-img{
+  border-bottom: #ec8d56 solid 0px;
+}
+
+txt h3 {
+  font-size: 30px;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 15px;
+}
+
+.txt ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  opacity: 50%;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.section4{
+ margin: 100px 0px;
+}
+
+.section4 h3{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  line-height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+  
+
+}
+
+.section4 p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  opacity: 50%;
+  font-style: normal;
+  font-size: 22px;
+  line-height: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.deal-layout {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: normal;
+  flex-direction: column;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 0;
+  max-width: 100%;
+}
+
+.right-column {
+  flex: 0;
+}
+
+.deal-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100%;
+  margin: 0px 30px;
+}
+
+.deal-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.deal-card:hover img {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  text-align: center;
+}
+
+.deal-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  font-family: "Noto Serif", serif;
+}
+
+.overlay a {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  font-family: "Inter", sans-serif;
+}
+
+
+.short-card {
+  
+  height: 300px;
+
+
+}
+
+.tall-card {
+  height: 100%;
+
+}
+
+.sub h3{
+  font-size: 40px;
+}
+
+.sub input[type="email"] {
+  height: 70px;
+  flex: 1;
+  padding: 0 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+
+.sub button {
+  height: 70px;
+  padding: 0 60px;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(84, 83, 83);
+  padding: 40px 60px;
+  max-width: 1140px;
+  margin: 0 0;
+  gap: 40px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-left: 0px;
+}
+
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  min-width: 220px;
+  margin-right: 10px;
+}
+
+.f1 .logo {
+  width: 240px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.f1 p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+.f2 {
+  width: 40%;
+  min-width: 300px;
+}
+
+.f2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+
+.f3 {
+  width: 25%;
+  min-width: 280px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: normal;
+  gap: 25px;
+  margin-bottom: 100px; 
+}
+
+}
 }
 /* end */
